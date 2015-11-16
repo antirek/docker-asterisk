@@ -1,1 +1,1 @@
-docker build -t "astolua:1" .
+docker build -t "astolua:sample" .

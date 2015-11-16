@@ -17,8 +17,8 @@ see Dockerfile
 
 ## Fast start
 
-> git clone https://github.com/antirek/docker-asterisk.git
+> git clone https://github.com/antirek/docker-astolua-sample.git
 
-> cd docker-asterisk
+> cd docker-astolua-sample
 
 > ./run
