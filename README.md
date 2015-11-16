@@ -13,3 +13,12 @@ see Dockerfile
 ## Run
 
 > ./run
+
+
+## Fast start
+
+> git clone https://github.com/antirek/docker-asterisk.git
+
+> cd docker-asterisk
+
+> ./run
