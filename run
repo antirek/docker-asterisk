@@ -1,7 +1,6 @@
+#!/bin/bash
 docker run \
  -v /tmp/var/log:/var/log \
- -v /home/sergey/Projects/lua-dialplan:/tmp/lua-dialplan \
- -v /etc/asterisk:/etc/asterisk \
- -v /var/lib/asterisk/sounds:/var/lib/asterisk/sounds \
+ -v $(pwd)/store/etc/asterisk:/etc/asterisk \
  --net=host \
  -i -t "astolua:sample"
