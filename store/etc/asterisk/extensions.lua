@@ -4,7 +4,7 @@ extensions = {
 
 		["_NXXXXXX"] = outgoing_local;
 
-		["*10"] = function()
+		["*12"] = function()
 			app.sayunixtime();
 		end;
 
