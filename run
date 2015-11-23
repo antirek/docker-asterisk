@@ -4,5 +4,6 @@ docker run \
  -v /tmp/var/log:/var/log \
  -v /etc/localtime:/etc/localtime:ro \
  -v $(pwd)/store/etc/asterisk:/etc/asterisk \
+ -v $(pwd)/store/var/log/asterisk:/var/log/asterisk \
  --net=host \
  -i -t "astolua:sample"
