@@ -1,4 +1,4 @@
-# docker-asterisk
+# docker-asterisk-sample
 
 Sample of extend docker image antirek/astolua [https://hub.docker.com/r/antirek/astolua/]
 
@@ -20,5 +20,7 @@ see Dockerfile
 > git clone https://github.com/antirek/docker-astolua-sample.git
 
 > cd docker-astolua-sample
+
+> ./build
 
 > ./run
