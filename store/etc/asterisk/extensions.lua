@@ -15,7 +15,7 @@ extensions = {
 
 		["200"] = function (context, extension)
 			app.playback("/var/menu/demo");
-		end
+		end;
 	};
 };
 
