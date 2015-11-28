@@ -1,4 +1,4 @@
-# docker-asterisk-sample
+# docker-astolua-sample
 
 Sample of extend docker image antirek/astolua [https://hub.docker.com/r/antirek/astolua/]
 
